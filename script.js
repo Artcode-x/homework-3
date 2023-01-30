@@ -1,17 +1,17 @@
-/*
+
 // Z 1
 
 let password = prompt('Введите пароль');
 
-if (password === 'печеньки') { 
-    alert ('Пароль введен верно');
-    
+if (password === 'печеньки') {
+    alert('Пароль введен верно');
+
 } else {
-    alert ('Пароль введен неверно');
+    alert('Пароль введен неверно');
 }
-*/
+
 // Z 2  --
-/*
+
 let c = Number(prompt('Введите число'));
 
 
@@ -20,9 +20,9 @@ if (c > 0 && c < 10) {
 } else {
     console.log('Неверно');
 }
-*/
+
 //z2
-/*
+
 let c = 20;
 
 if (c > 0 && c < 10) {
@@ -31,7 +31,7 @@ if (c > 0 && c < 10) {
     console.log('Неверно');
 }
 
- c = 0;
+c = 0;
 
 if (c > 0 && c < 10) {
     console.log('Верно');
@@ -79,8 +79,8 @@ if (d > 100 || e > 100) {
     console.log('Неверно');
 }
 
- d = 4;
- e = 5;
+d = 4;
+e = 5;
 
 if (d > 100 || e > 100) {
     console.log('Верно');
@@ -92,7 +92,7 @@ if (d > 100 || e > 100) {
 
 let la = 2;
 let bl = 3;
-alert(la + bl); 
+alert(la + bl);
 
 
 //z5
@@ -136,10 +136,10 @@ switch (monthnumber) {
         console.log('зима')
         break;
 
-    default: 
-    console.log('введен некорректный месяц')
+    default:
+        console.log('введен некорректный месяц')
         break;
 }
 
-*/
+
 //z6

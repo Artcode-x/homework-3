@@ -142,4 +142,51 @@ switch (monthnumber) {
 }
 
 
-//z6
+
+
+
+// z 7
+let xs = prompt('Пожалуйста, введите любое число');
+
+if (!Number.isNaN(xs)) { // проверка "isNaN - если не число" - почему не компилируется без "!" / "!isNaN - Если число"
+    if (xs % 2 == 0) {
+    console.log('число четное');
+} else {
+    console.log('число нечетное');
+}
+
+} 
+
+
+
+
+
+let xs = prompt('Пожалуйста, введите любое число');
+
+if (typeof Number (xs)) {  
+        if (xs % 2 == 0) {
+        alert('число четное');
+    } else {
+        alert('число нечетное');
+    }
+
+} 
+
+// z 8
+
+let clientOS = 1;
+
+if (clientOS === 1) { 
+    console.log('Клиент пользуется андроидом');
+} else if (clientOS === 0) {
+    console.log('Клиент пользуется IOS');
+}
+
+
+let clientOS = false;
+if (clientOS === true) {
+    console.log('Android');
+} else if (clientOS === false) {
+    console.log('IOS')
+}
+

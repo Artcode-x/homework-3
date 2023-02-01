@@ -167,9 +167,9 @@ if (clientOS) {
 
 
 let clientOS = false;
-if (clientOS === true) {
+if (clientOS) {
     console.log('Android');
-} else if (clientOS === false) {
+} else if (clientOS === true) {
     console.log('IOS')
 }
 

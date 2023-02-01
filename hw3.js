@@ -99,12 +99,19 @@ alert(la + bl);
 let monthnumber = String(prompt('Введите номер месяца'))
 
 switch (monthnumber) {
-    case '1':   case '2':
+    case '1':
         console.log('зима')
         break;
- 
-       
-    case '3': case '4': case '5':
+    case '2':
+        console.log('зима')
+        break;
+    case '3':
+        console.log('весна')
+        break;
+    case '4':
+        console.log('весна')
+        break;
+    case '5':
         console.log('весна')
         break;
     case '6':
@@ -139,30 +146,37 @@ switch (monthnumber) {
 
 
 // z 7
-let xs = Number(prompt('Пожалуйста, введите любое число'));
+let xs = prompt('Пожалуйста, введите любое число');
 
-if (!isNaN(xs)) { // проверка "isNaN - если не число" - почему не компилируется без "!" / "!isNaN - Если число"
+if (!Number.isNaN(xs)) { // проверка "isNaN - если не число" - почему не компилируется без "!" / "!isNaN - Если число"
     if (xs % 2 == 0) {
     console.log('число четное');
 } else {
     console.log('число нечетное');
 }
 
-} else {
-    console.log('вы ввели не число');
- }
+} 
 
 
 
 
 
+let xs = prompt('Пожалуйста, введите любое число');
 
+if (typeof Number (xs)) {  
+        if (xs % 2 == 0) {
+        alert('число четное');
+    } else {
+        alert('число нечетное');
+    }
+
+} 
 
 // z 8
 
 let clientOS = 1;
 
-if (clientOS) { 
+if (clientOS === 1) { 
     console.log('Клиент пользуется андроидом');
 } else if (clientOS === 0) {
     console.log('Клиент пользуется IOS');
@@ -170,9 +184,9 @@ if (clientOS) {
 
 
 let clientOS = false;
-if (clientOS) {
+if (clientOS === true) {
     console.log('Android');
-} else if (clientOS === true) {
+} else if (clientOS === false) {
     console.log('IOS')
 }
 
